@@ -14,7 +14,7 @@ $(document).ready(function() {
       return x.toUpperCase();
     });
 
-    $("#groceriesOutput").text(sortedGroceries) + '<br />';
+    $("#groceriesOutput").text(sortedGroceries) + '<br>';
 
     $("#hidden").show();
   });
