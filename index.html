@@ -15,7 +15,56 @@
     <div class="card">
       <div class="card-body">
         <h2 class="card-title">Select the items that you want to purchase.</h2>
+        <form id="groceriesForm">
+          <div class="form-group">
+            <label for="fruits">Which fruits would you like to buy?</label>
+            <select class="form-control" id="selectFruits">
+              <option>Mango</option>
+              <option>Tree tomato</option>
+              <option>Passion</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="meat">Which type of meat would you like to buy?</label>
+            <select class="form-control" id="selectMeat">
+              <option>Chicken</option>
+              <option>Mutton</option>
+              <option>Beeef</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="dairyProducts">Which type of dairy products would you like to buy?</label>
+            <select class="form-control" id="selectDairyProducts">
+              <option>Cheese</option>
+              <option>Yogurt</option>
+              <option>Butter</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="bakeryGoods">Which type of bakery goods would you like to buy?</label>
+            <select class="form-control" id="selectBakeryGoods">
+              <option>Cookies</option>
+              <option>Muffins</option>
+              <option>Pizza</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="juice">Which type of juice would you like to buy?</label>
+            <select class="form-control" id="selectJuice">
+              <option>Orange</option>
+              <option>Apple</option>
+              <option>Cranberry</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
+    </div>
+    <div id="hidden">
+      <ul id="groceriesOutput">
+
+      </ul>
     </div>
   </div>
   <div class="container-fluid container02">
