@@ -13,7 +13,7 @@ By _**Charles Mwathi**_
 
 ## Description
 
-The web app has a form where a user can select their preferred items from a collection and finally get an output of the sorted groceries with the letters changed to uppercase.
+The web page has a form where a user can select their preferred items from a collection and finally get an output of the sorted groceries with the letters changed to uppercase.
 ## Setup/Installation Requirements
 
 * _Clone the repository to your directory by using the following command_
